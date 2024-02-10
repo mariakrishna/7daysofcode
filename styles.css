@@ -161,3 +161,38 @@ header {
 .job_opportunity img {
     margin-bottom: 4rem;
 }
+
+.job_jobs_role {
+   width: 600px;
+   padding: 0 15%;
+   display: flex;
+   flex-direction: column;
+}
+
+.job_department {
+    color: var(--font-color-strong);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    margin: 1rem;
+}
+
+.job_role {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid #EDEDED 2px;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
+
+.job_role_title {
+    font-size: 1.125rem;
+    color: var(--font-color-strong);
+    flex: 1;
+    margin-bottom: .5rem;
+    flex-grow: 1;
+    flex-basis: 100%; 
+    box-sizing: border-box; 
+}
