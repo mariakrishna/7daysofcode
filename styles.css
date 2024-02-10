@@ -196,3 +196,37 @@ header {
     flex-basis: 100%; 
     box-sizing: border-box; 
 }
+
+.testemonials {
+    background-color: #C3191908;
+    padding: 5% 12%;
+    text-align: center;
+}
+
+.testemonials_title {
+    color: var(--font-color-highlight);
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.testemonials_subtitle {
+    color: var(--font-color-strong);
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+}
+
+.testemonials_avatar {
+    margin-bottom: 0.5rem;
+}
+
+.testemonials_name {
+    color: var(--font-color-strong);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.testemonials p {
+    font-size: 0.8rem;
+}
