@@ -15,7 +15,7 @@ body {
     color: var(--font-color-base);
 }
 
-header {
+nav {
     padding: 2% 0 0 2%;
     display: flex;
     align-items: center;
@@ -40,14 +40,14 @@ header {
     font-size: 1.125rem;
  }
 
-nav {
+.nav {
     display: flex;
     padding: 0.25rem;
     gap: 2rem;
 }
 
 
-nav a {
+.nav a {
     color: var(--font-color-base);
     text-decoration: none;
     font-family: 'Inter', sans-serif;
@@ -74,4 +74,40 @@ nav a {
     background-color: var(--font-color-highlight);
     border: none;
     color: #fff;
+}
+
+.button-login:hover {
+    background-color: #EDEDED;
+}
+
+.button-signup:hover {
+    background-color: #562525;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    padding: 6rem;
+}
+
+.header_title {
+    color: var(--font-color-highlight);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.header_subtitle {
+    color: var(--font-color-strong);
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.header_text {
+    font-size: 1.2rem;
+    width: 50%;
+    margin-bottom: 6.25rem;
 }
